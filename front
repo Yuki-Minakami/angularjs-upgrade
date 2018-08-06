@@ -1,0 +1,32 @@
+Front end tech doc
+Use angular as main framework
+And use bootstrap as UI style controller and ueditor as online doc editor.
+API offered :
+post
+/login
+/create
+/search
+
+get
+/userInfo
+/doc/:id/status
+/doc/:id/content
+/docList/tickets
+/docList/trades
+/docList/cashflows
+/favorite
+/message
+/appList
+
+standard doc message item
+{
+id:’’,
+type:’’,
+name:’’,
+time:’’,
+imgLink:’’,
+description:’’,
+author:’’,
+status:’’
+}
+
